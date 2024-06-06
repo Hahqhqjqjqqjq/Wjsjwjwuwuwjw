@@ -4,7 +4,7 @@ from time import sleep
 from telebot import types
 
 ti=0
-token = "6848848118:AAHi59iKKwPfC8AybBSHxJj7zw2jkpykHyc"
+token = "7433113454:AAEaTKfay1cKJS9YuBGc9XL3vTJWuB4YlZk"
 ags = telebot.TeleBot(token)
 @ags.message_handler(commands = ['start'])
 def Start(message):
